@@ -40,8 +40,9 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="post-heading">
-                            <h1>Fast Robots</h1>
-                            <h2 class="subheading">Spring 2024</h2>
+                            <h1>Cornell Mars Rover</h1>
+                            <h2 class="subheading">Drivetrain Lead: Fall 2022</h2>
+                            <h2 class="subheading">Drive Systems Member: Fall 2019 - Spring 2022</h2>
                             <!--<span class="meta">Posted by<a href="#!">Start Bootstrap</a>on August 24, 2023</span>-->
                         </div>
                     </div>
@@ -53,7 +54,118 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        
+                        <h2 class="subheading">Overview</h2>
+                        <p>Since 2019, I had been a member of Cornell Mars Rover Project Team which is made up of 70 members 
+                            from a variety of majors at the university. Cornell Mars Rover (CMR) is a student-run engineering 
+                            project team with the goal of competing at the Annual University Rover Challenge at the Mars Desert 
+                            Research Center in Utah. 
+                        </p>
+                        <p>I was the Cornell Mars Rover Drives Lead whose eight member group was responsible for the design, 
+                            analysis, and in-house manufacturing of the rover’s chassis, suspension, electric housing, wheels, 
+                            and camera mast. As Drives Team, I worked with other team leads, to define broad-reaching goals and 
+                            target completion dates. My responsibilities included leading weekly meetings with team Drive team 
+                            members for project updates and assignments. I also represent the Drive's team at weekly 
+                            cross-functional presentations and discussions with the eight other CMR team leads. In addition, 
+                            I compiled and wrote technical documents on the suspension, wheel design progress, and design 
+                            specifications. Along with my drives team, we designed and performed in-house construction of a 
+                            rocker-bogie suspension with custom flexible 3D printed drive wheels. 
+                        </p>
+                        <h2 class="subheading">Drives Subsystems</h2>
+                            <h3 class="subheading">Frame and ECore</h3>
+                            <p>The frame of the rover was responsible for providing structure to act as the central body of the 
+                                rover. Many other subsystems, both within and outside of Drives, need to integrate with the frame. 
+                                This requireed the collaboration of several different members across different subteams. The Fall 
+                                2022 frame design consists of a combination between a planar frame and a box frame. This design 
+                                sought to reduce weight while, using the planar frame, while also maximizing the mounting space 
+                                for the camera mast and Astrotech systems in the back of the rover on the box frame. The frame was 
+                                made from aluminum 6061 and carbon fiber connection bars. The majority of the bars used in the design 
+                                were aluminum 6061. The carbon fiber bars were located at the front of the frame, connected to the 
+                                arm mount to provide the structural integrity needed for the weight of the arm. 
+                            </p>
+                            <p>The ECore was responsible for housing all of the needed electrical equipment and boards for the rover. 
+                                Requirements included that ECore needed to have sufficient air cooling in order for the electrical 
+                                boards to not overheat. The top cover of the ECore also needed to be secure when closed, but also 
+                                provide accessibility when placing or altering electrical boards. The main design constraints 
+                                surrounding the Ecore included the shape and dimensions of the frame and the size, number, and 
+                                placement of the electrical boards.
+                            </p>
+                            <h3 class="subheading">Suspension</h3>
+                            <p>The suspension of the rover supported the rover by connecting the wheels to the frame. The goal of 
+                                the suspension system was to mitigate the forces and impulses transmitted to the frame, provide a 
+                                smooth method of traversal over rough terrain, and mitigate the chances of flipping. These goals 
+                                were accomplished through the use of a rocker-bogie suspension system. The rocker-bogie suspension 
+                                system pivots around two joints. The rocker joint is connected to the frame as well as the rod going 
+                                to the differential bar. When the rocker mount rotates the rod is either pushed forward or backwards, 
+                                resulting the opposite motion on the other side of the suspension. The bogie joint connects the front 
+                                rocker arm to the bogie that rotates around the connection point. The rocker-bogie suspension allows 
+                                for all six wheels to remain in contact with the ground throughout traversal. This feature helps with 
+                                the stability of the rover and prevents tipping.
+                            </p>
+                            <p>The suspension design for Fall 2022 was made from aluminum 6061 connection bars to reduce the cost of 
+                                the rover. The connection mounts for the rocker and bogie joints will be CNC'd from aluminum 6061 to 
+                                maintain structural integrity. The other connectors will be printed from carbon fiber filament on the 
+                                Onyx printers at the RPL. The wheel mounts will be CNC'd from aluminum 6061. The same differential bar 
+                                that is on the Spring 2021 rover will be used in this design.  
+                            </p>
+                            <h3 class="subheading">Wheels</h3>
+                            <p>The wheels of the Cornell Mars rover interfaced with the rocker-bogie suspension system. They were 
+                                connected to the suspension through the wheel mount interface. The six wheels on the rover were needed        
+                                for several different reasons: 
+                                <li>Provide an interface between the terrain and the rover.</li>
+                                <li>Attach to the wheel mounts and rotate by way of the electrical system.</li>
+                                <li>Mitigate the forces on the suspension and thus the frame of the rover.</li>  
+                            </p>
+                            <p>The wheels were powered by Maxon motors, with the goal of using the cycloidal drive gearboxes. The 
+                                design of the wheels consist of an outer tire that is printed from ABS*. A truss design was used in 
+                                the wheels to aid in the distribution of forces. The tread design prevented the wheels from slipping 
+                                on the ground and allowed the rover to gain traction. The wheel hub was CNC'd from aluminum 6061 in 
+                                two parts. The front and back plate were connected by spokes through the wheel. To maintain a constant 
+                                stiffness surrounding the spokes a stiffness band will be included inside of the wheel. 
+                            </p>
+                            <h3 class="subheading">Camera Mast</h3>
+                            <p>The camera mast of the rover was also designed The camera mast included a carbon fiber mast with several 
+                                3D printed mounts made from PLA attached. These mounts included: lidar, pan tilt camera, ZED cam, GPS, 
+                                antenna, antenna white box, and the connection mounts to the frame. The lidar mount was attached under 
+                                the arm mount. The camera mast was attached to the back of the box frame. The goal of the camera mast 
+                                was to hold all of the rover's needed equipment for CS and other subteams to successfully create 
+                                redesigns to traverse the URC course. 
+                            </p>
+                        <h2 class="subheading">Reflection</h2>
+                        <p>Over the course of the semester, I set several personal goals for myself to accomplish as well as teamwide 
+                            goals for the Drives sub team. These goals included becoming a more effective leader, improve my working 
+                            knowledge of all sub teams on CMR, and improving my communication skills. Throughout the semester I focused 
+                            on opportunities to improve my skills and help CMR become a more efficient team. 
+                        </p>
+                        <p>One of my proudest accomplishment this semester is taking on the challenge of redesigning all of the systems 
+                            on Drives. This was an enormous effort to rethink how to improve the past years design, while not having any 
+                            significant testing data to work with in the analysis. Working through these design iterations took 
+                            significant time and effort and I am very proud of the improvements made. 
+                        </p>
+                        <p>I learned several unexpected things about leadership. One of the main things that I learned was about directing 
+                            the timeline of a project and understanding how to achieve the project goals with the resources available. 
+                            It is important to understand the working knowledge of the team in order to better guide and be informed 
+                            about what challenges might be faced when designing and testing each system.
+                        </p>
+                        <p>Some challenges faced over the course of the semester included the integration of each subsystem of Drives 
+                            as well as the integration of other subsystems onto the frame of the rover. In order to address this 
+                            challenge clear communication was necessary between everyone on the team to reach a consensus on the 
+                            integration design between systems. These issues were addressed, and I assembled the full CAD of the 
+                            Drives system assembly. A system assembly of the entire rover was also constructed. Potential problems 
+                            in the future can involve issues in the manufacturing process. In order to mitigate these issues a 
+                            manufacturing plan will be made.
+                        </p>
+                        <p>During the semester the time I spent doing work for CMR ranged from 14 hours to 25 hours a week. The time 
+                            spent dedicated to CMR was a lot more than some of my other classes and was difficult at times to manage. 
+                            Overall, I planned my time well with other courses and completed all of my assignments. I was able to apply 
+                            knowledge from my courses in product design as well as statics. I also have an interest in Systems 
+                            Engineering and enjoyed the opportunity to take on a leadership role where I could examine how a full system 
+                            of many smaller systems is assembled. 
+                        </p>
+                        <p>In the future I plan on using my knowledge and skillset to better improve my leadership abilities. I will 
+                            continue to set multiple deadlines and goals to guide the projects for the eight members of the Drive 
+                            team. I learned a lot about how to inform and instruct team members that needed guidance as well as 
+                            plan for the integration of smaller sub systems into the larger design of the rover.  
+                        </p>
                     </div>
                 </div>
             </div>
